@@ -48,7 +48,7 @@
 
         <a href="{% url 'account:home' %}"><img src="{% static 'img/bzlogo.png'%}" alt="" class="img-fluid" width="70px" height="outo"></a>
         {%else%}
-        <li><a class="nav-link scrollto " href="{%url 'main:home_view'%}">Home</a></li>
+        <a href="{% url 'main:home_view' %}"><img src="{% static 'img/bzlogo.png'%}" alt="" class="img-fluid" width="70px" height="outo"></a>
 
         {%endif%}
       </div>
